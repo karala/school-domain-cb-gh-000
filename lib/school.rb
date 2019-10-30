@@ -6,12 +6,9 @@ class School
     @roster = {}
   end
 
-  def roster
-
-  end
-
-  def add_student(key, value)
-    @length[:key] << value
+  def add_student(student_name, grade)
+    roster[grade] ||= []
+    roster[grade] << student_name
   end
 
 end
