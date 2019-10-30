@@ -10,8 +10,7 @@ class School
   end
 
   def add_student(key, value)
-    hash = {:key => value}
-    @length = {:}
+    @length = {:key => value}
   end
 
 end
