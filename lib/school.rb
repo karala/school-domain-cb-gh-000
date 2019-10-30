@@ -10,7 +10,7 @@ class School
   end
 
   def add_student(key, value)
-    @length.store(key, value)
+    @length[key] << value
   end
 
 end
