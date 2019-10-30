@@ -5,10 +5,8 @@ class School
     @name = name
   end
 
-  @length = {}
-
   def roster
-    @length
+    @length = {}
   end
 
   def add_student(key, value)
