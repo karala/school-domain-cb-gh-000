@@ -6,7 +6,7 @@ class School
   end
 
   def roster
-    @length = Hash.new
+    @length = {}
   end
 
   def add_student(key, value)
