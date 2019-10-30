@@ -7,7 +7,7 @@ class School
   end
 
   def roster
-    
+
   end
 
   def add_student(key, value)
