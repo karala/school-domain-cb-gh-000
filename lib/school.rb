@@ -9,8 +9,9 @@ class School
     @length = Hash.new
   end
 
-  def add_student
-
+  def add_student(key, value)
+    hash = {:key => value}
+    @length = {:}
   end
 
 end
